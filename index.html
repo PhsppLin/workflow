@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>債務償還管理</title>
 <style>
-@import url('https://script.google.com/macros/s/AKfycbw9OSzJwWp7ZT5vFSE_dMGAo9mg7l6hYtMfXjuJVN2ZDAt8jSy0h1HcXrxFVG9dqo9M/exec');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 :root{--bg:#EBEEEC;--surface:#FFFFFF;--alt:#F4F6F5;--ink:#16302B;--muted:#61716B;--faint:#93A099;
  --line:#DCE3E0;--primary:#1E6A5B;--psoft:#E4EFEB;--income:#2E7D5B;--expense:#B84A5A;--gold:#A87C1F}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -92,7 +92,7 @@ input,select{width:100%;border:1px solid var(--line);border-radius:9px;padding:1
 /* ===================================================================
    ① 貼上你的 Google Apps Script 網頁應用程式網址（結尾 /exec）
    =================================================================== */
-const API_URL = "PASTE_YOUR_GAS_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbw9OSzJwWp7ZT5vFSE_dMGAo9mg7l6hYtMfXjuJVN2ZDAt8jSy0h1HcXrxFVG9dqo9M/exec";
 
 let STATE=null, TAB="alloc", ALLOC=[], CODE=sessionStorage.getItem('debt_code')||"";
 const NAV=[["alloc","分配","▦"],["brother","哥哥","①"],["sister","姐姐","②"],["iou","借據","✎"]];
